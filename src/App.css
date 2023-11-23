@@ -1,1 +1,41 @@
 /* add your styles here */
+
+body {
+  background-color: rgb(78, 143, 99);
+}
+
+.heading{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
+}
+.container div {
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: aquamarine;
+  padding: 2px;
+  margin: auto;
+  text-align: center;
+}
+
+.container div:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: rgb(236, 105, 105);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.container img {
+  border-radius: 20px 20px 0 0;
+  max-width: 300px;
+}
